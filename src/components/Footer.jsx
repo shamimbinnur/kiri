@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className=" bg-kiri-blue py-3 fixed bottom-0 left-0 w-full z-50  ">
+        <footer className=" bg-kiri-blue py-3 static  md:fixed md:bottom-0 md:left-0 w-full z-50  ">
             <div className="container flex flex-col md:flex-row items-center">
                 <div className="flex flex-1 flex-col flex-wrap  items-center justify-center">
                     <h1 className=" text-sm text-gray-100 mb-2 font-medium ">Community</h1>
