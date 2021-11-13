@@ -9,7 +9,7 @@ import karaoke from "../images/karaoke.svg"
 
 function Feature() {
     return (
-        <section className="  ">
+        <section id="features">
             <h1 className="text-3xl text-kiri-blue text-center m-8 ">Features</h1>
 
             {/* Game Section */}
@@ -42,7 +42,7 @@ function Feature() {
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-kiri-blue  text-2xl " > reCAPTCHA</h1>
                         <p className="text-gray-400 text-center my-4 lg:text-left sm:w-3/4 lg:w-full">
-                        Over 10 fun games to challenge you and others members (heavily integrated with currency)
+                        Verification with reCAPTCHA integrate world-class captcha in front of your server portal, eliminate bots and spam.
 
                         </p>
                     </div>
@@ -62,7 +62,7 @@ function Feature() {
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-kiri-blue  text-2xl " >Fun Currency System </h1>
                         <p className="text-gray-400 text-center my-4 lg:text-left sm:w-3/4 lg:w-full">
-                        Over 10 fun games to challenge you and others members (heavily integrated with currency)
+                        Fun currency system allows you to buy seeds and grow plants, as well as buying other items
 
                         </p>
                     </div>
@@ -82,7 +82,7 @@ function Feature() {
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-kiri-blue  text-2xl " > Fun Karauke</h1>
                         <p className="text-gray-400 text-center my-4 lg:text-left sm:w-3/4 lg:w-full">
-                        Over 10 fun games to challenge you and others members (heavily integrated with currency)
+                        Unique karaoke feature send lyrics in real-time for your playing song!
 
                         </p>
                     </div>
@@ -102,7 +102,7 @@ function Feature() {
                     <div className="flex flex-1 flex-col items-center lg:items-start">
                         <h1 className="text-kiri-blue  text-2xl " >Music</h1>
                         <p className="text-gray-400 text-center my-4 lg:text-left sm:w-3/4 lg:w-full">
-                        Over 10 fun games to challenge you and others members (heavily integrated with currency)
+                        Stable, high quality music allows you to play music from a variety of sources
 
                         </p>
                     </div>
