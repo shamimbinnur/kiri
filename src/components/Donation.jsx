@@ -7,7 +7,10 @@ function Donation() {
             <div className="container flex flex-col justify-center items-center ">
                 {/* Title */}
                 <div className="flexflex-col items-center text-center max-w-sm mb-14">
-                    <h1 className="text-kiri-blue  text-2xl " >Donation and Perks</h1>
+                    <div className="text-kiri-blue text-2xl flex justify-center items-center gap-x-2 ">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h1  >Donation and Perks</h1>
+                    </div>
                     <p className="text-gray-400 text-center my-4  lg:w-full">
                     This is not required, but donating will keep me alive and performing well, as well as earning some exclusive perks for you!
 

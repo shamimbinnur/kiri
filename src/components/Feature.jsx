@@ -10,7 +10,10 @@ import karaoke from "../images/karaoke.svg"
 function Feature() {
     return (
         <section id="features">
-            <h1 className="text-3xl text-kiri-blue text-center m-8 ">Features</h1>
+            <div className="text-3xl flex justify-center items-center gap-x-3 text-kiri-blue text-center m-8 " >
+                <i class="fas fa-bahai"></i>
+                <h1>Features</h1>
+            </div>
 
             {/* Game Section */}
             <div className="relative mt-20 lg:mt-40  ">
