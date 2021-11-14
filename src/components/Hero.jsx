@@ -4,7 +4,7 @@ import Kiri from "../images/kiri.jpeg"
 
 function Hero() {
     return (
-        <section id="home" className=" bg-hero-pattern bg-no-repeat bg-center ">
+        <section id="home" className=" bg-hero-pattern bg-no-repeat bg-center -translate-x-5 ">
             <div className="container mx-auto p-10 py-28  ">
                 {/* Photo & Branding */}
                     <div className="flex flex-col justify-center md:px-40 items-center mb-10">
@@ -19,7 +19,7 @@ function Hero() {
                         
                         <div className="w-52 h-14 mt-5 flex justify-center items-center gap-x-1.5 shadow-lg hover:bg-gray-100 duration-500 ease-in-out hover:text-kiri-blue hover:border-gray-900 transition-all  rounded-full border-2 border-dashed border-gray-100 bg-gray-700 font-bold text-gray-200 text-lg" >
                             <i class="  fab fa-discord"></i>
-                            <button > <a href=""> ADD TO DISCORD </a></button>   
+                            <a href="https://kiribot.xyz/"> <button >  ADD TO DISCORD </button> </a>   
                         </div>
                     </div>
             </div>          
