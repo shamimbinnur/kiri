@@ -17,7 +17,7 @@ function Hero() {
                             <img className="w-full h-full object-cover" src={Kiri} alt="kiri" />
                         </div>
                         
-                        <div className="w-48 h-14 mt-5 flex justify-center items-center gap-x-1.5 shadow-lg hover:bg-gray-100 duration-500 ease-in-out hover:text-kiri-blue hover:border-gray-900 transition-all  rounded-full border-2 border-dashed border-gray-100 bg-kiri-blue font-bold text-gray-200 text-lg" >
+                        <div className="w-52 h-14 mt-5 flex justify-center items-center gap-x-1.5 shadow-lg hover:bg-gray-100 duration-500 ease-in-out hover:text-kiri-blue hover:border-gray-900 transition-all  rounded-full border-2 border-dashed border-gray-100 bg-kiri-blue font-bold text-gray-200 text-lg" >
                             <i class="  fab fa-discord"></i>
                             <button > <a href=""> ADD TO DISCORD </a></button>   
                         </div>

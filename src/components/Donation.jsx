@@ -3,7 +3,7 @@ import donation from "../images/donation.svg"
 
 function Donation() {
     return (
-        <div id="donation" className="relative mt-24 md:mt-60 mb-32  ">
+        <div id="donation" className="relative mt-24 md:mt-60 mb-48  ">
             <div className="container flex flex-col justify-center items-center ">
                 {/* Title */}
                 <div className="flexflex-col items-center text-center max-w-sm mb-14">
