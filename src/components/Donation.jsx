@@ -18,7 +18,7 @@ function Donation() {
                 </div>
                 {/* <!-- Image --> */}
                 <div className="flex  justify-center ">
-                    <img className="w-5/6 h-5/6 sm:w-3/4 z-50 sm:h-3/5 md:w-full md:h-full" src={donation}  alt=""/>
+                    <img className="w-5/6 h-5/6 sm:w-3/4 z-10 sm:h-3/5 md:w-full md:h-full" src={donation}  alt=""/>
                 </div>
                 
             </div>
